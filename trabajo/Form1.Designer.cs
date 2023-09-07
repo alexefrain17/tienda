@@ -34,9 +34,9 @@
             INSER = new TextBox();
             CONTRA = new Label();
             CMMM = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            uno = new Button();
+            DOS = new Button();
+            TRES = new Button();
             ((System.ComponentModel.ISupportInitialize)imagen).BeginInit();
             SuspendLayout();
             // 
@@ -46,7 +46,7 @@
             imagen.Location = new Point(12, 30);
             imagen.Name = "imagen";
             imagen.Size = new Size(245, 185);
-            imagen.SizeMode = PictureBoxSizeMode.Zoom;
+            imagen.SizeMode = PictureBoxSizeMode.StretchImage;
             imagen.TabIndex = 0;
             imagen.TabStop = false;
             // 
@@ -84,41 +84,44 @@
             CMMM.Size = new Size(224, 23);
             CMMM.TabIndex = 4;
             // 
-            // button1
+            // uno
             // 
-            button1.Location = new Point(89, 260);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 5;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            uno.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            uno.Location = new Point(72, 260);
+            uno.Name = "uno";
+            uno.Size = new Size(132, 23);
+            uno.TabIndex = 5;
+            uno.Text = "CREAR USUSARIO";
+            uno.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // DOS
             // 
-            button2.Location = new Point(225, 260);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 6;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            DOS.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            DOS.Location = new Point(220, 261);
+            DOS.Name = "DOS";
+            DOS.Size = new Size(115, 23);
+            DOS.TabIndex = 6;
+            DOS.Text = "INGRESAR";
+            DOS.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // TRES
             // 
-            button3.Location = new Point(366, 260);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 7;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            TRES.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            TRES.Location = new Point(367, 260);
+            TRES.Name = "TRES";
+            TRES.Size = new Size(115, 23);
+            TRES.TabIndex = 7;
+            TRES.Text = "CERAR SESION";
+            TRES.UseVisualStyleBackColor = true;
             // 
             // login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(494, 296);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(TRES);
+            Controls.Add(DOS);
+            Controls.Add(uno);
             Controls.Add(CMMM);
             Controls.Add(CONTRA);
             Controls.Add(INSER);
@@ -139,8 +142,8 @@
         private TextBox INSER;
         private Label CONTRA;
         private TextBox CMMM;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button uno;
+        private Button DOS;
+        private Button TRES;
     }
 }
