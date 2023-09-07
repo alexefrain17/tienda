@@ -6,5 +6,11 @@ namespace trabajo
         {
             InitializeComponent();
         }
+
+        private void TRES_Click(object sender, EventArgs e)
+        {
+            //BOTON SALIR
+            this.Close();  
+        }
     }
 }

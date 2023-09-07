@@ -107,12 +107,13 @@
             // TRES
             // 
             TRES.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            TRES.Location = new Point(367, 260);
+            TRES.Location = new Point(367, 261);
             TRES.Name = "TRES";
             TRES.Size = new Size(115, 23);
             TRES.TabIndex = 7;
-            TRES.Text = "CERAR SESION";
+            TRES.Text = "SALIR";
             TRES.UseVisualStyleBackColor = true;
+            TRES.Click += TRES_Click;
             // 
             // login
             // 
