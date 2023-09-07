@@ -10,7 +10,13 @@ namespace trabajo
         private void TRES_Click(object sender, EventArgs e)
         {
             //BOTON SALIR
-            this.Close();  
+            this.Close(); 
+        }
+
+        private void uno_Click(object sender, EventArgs e)
+        {
+            Form2 prueba = new Form2();
+            prueba.Show();
         }
     }
 }

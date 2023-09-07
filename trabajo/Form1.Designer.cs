@@ -45,7 +45,7 @@
             imagen.Image = (Image)resources.GetObject("imagen.Image");
             imagen.Location = new Point(12, 30);
             imagen.Name = "imagen";
-            imagen.Size = new Size(245, 185);
+            imagen.Size = new Size(245, 213);
             imagen.SizeMode = PictureBoxSizeMode.StretchImage;
             imagen.TabIndex = 0;
             imagen.TabStop = false;
@@ -93,6 +93,7 @@
             uno.TabIndex = 5;
             uno.Text = "CREAR USUSARIO";
             uno.UseVisualStyleBackColor = true;
+            uno.Click += uno_Click;
             // 
             // DOS
             // 

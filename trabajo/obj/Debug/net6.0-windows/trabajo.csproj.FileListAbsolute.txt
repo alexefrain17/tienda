@@ -16,3 +16,4 @@ C:\Users\Alumno\Desktop\hoytra\trabajo\obj\Debug\net6.0-windows\refint\trabajo.d
 C:\Users\Alumno\Desktop\hoytra\trabajo\obj\Debug\net6.0-windows\trabajo.pdb
 C:\Users\Alumno\Desktop\hoytra\trabajo\obj\Debug\net6.0-windows\trabajo.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\hoytra\trabajo\obj\Debug\net6.0-windows\ref\trabajo.dll
+C:\Users\Alumno\Desktop\hoytra\trabajo\obj\Debug\net6.0-windows\trabajo.Form2.resources
